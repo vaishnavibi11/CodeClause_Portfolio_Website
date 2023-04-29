@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* NAVBAR STYLES */
+.navbar{
+    background-color: black;
+    height: 65px;
+    width: 100%;
+    justify-content: right;
+    display: flex;  
+   
+}
+.navbar li{
+    display: inline-block; 
+    padding: 20px 20px;
+    font-size: 14px;
+}
+.navbar a{
+    font-size: 14px;
+    text-decoration: none;
+    color: white;   
+}
+
+.head{
+    font-family: 'Nunito Sans', sans-serif;
+    background-image: url("background-image.png");
+    background-repeat: no-repeat;
+    background-position: 100% ;
+    width: auto;
+    height: auto;
+    padding: 100px 100px;
+}
+.head h1{
+    font-size: 54px;
+}
+.head p{
+    font-size: 36px;
+}
+
+.info {
+    height: 700px;
+    font-size: 20px;
+    padding: 30px 100px;
+    font-family: 'Nunito Sans', sans-serif; 
+}
+.info li{
+    font-size: 20px;
+    padding: 0px 0px 0px 40px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* ABOUT.HTML STYLES */
+
+.heading {
+    height: 65px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center; 
+    display: flex;
+    font-size: 20px;
+    font-style: bold;
+}
+.about{
+    height: 700px;
+    font-size: 20px;
+    padding: 0px 100px;
+    font-family: 'Nunito Sans', sans-serif; 
+}
+.about h1{
+    padding: 30px 0px;
+}
+.about hr{
+    height: 2px;
+    outline-color: #e5e5e5 ;
+}
+.about p{
+    padding: 30px 0px;
+}
+
+/* PROJECTS.HTML STYLES */
+
+.projects{
+    height: 700px;
+    font-size: 20px;
+    padding: 0px 100px;
+    font-family: 'Nunito Sans', sans-serif; 
+}
+.projects h1{
+    padding: 30px 0px;
+}
+.projects hr{
+    height: 2px;
+    outline-color: #e5e5e5 ;
+}
+.projects p{
+    padding: 30px 0px;
+}
+
+/* CONTACT.HTML STYLES */
+
+.details {
+    padding: 30px 0px;
+    height: 500px;
+    font-size: 20px;
+    font-family: 'Nunito Sans', sans-serif; 
+    text-align: center;
+}
+
+/* FOOTER STYLE */
+
+.footer {
+    background-color: black;
+    font-size: 20px;
+    color: white;
+    height: 65px;
+    justify-content: center;
+    align-items: center;
+    display: flex;   
+}
